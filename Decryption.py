@@ -5,6 +5,9 @@
 name = input("Please enter your name: ")
 
 # input encrypted text
+print("\033[0;32m=" * 80)
+encrypted_text = input("\033[0;32mTYPE ENCRYPTED TEXT: ")
+decrypted_text = ""
 # check every symbol to substitute
     # if *, make it a
     # if &, make it e

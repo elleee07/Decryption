@@ -28,3 +28,5 @@ for i in range(len(encrypted_text)):
     else:
         decrypted_text += encrypted_text[i]
 # print decrypted text 
+print("\033[0;31m=" * 80)
+print("\033[0;31mDECRYPTED TEXT: " + decrypted_text)
